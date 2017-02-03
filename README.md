@@ -1,6 +1,9 @@
-#LCD Clock for Raspberry Pi using WiringPi Library
+#LCD Clock for Raspberry Pi 
+Simple clock program to run on a Raspberry Pi through the use of the WiringPi Library. Created as a project for CSU Chico EECE 437. 
 
 ## To Run
+
+ $make
 
  $gpio load i2c
  
@@ -15,7 +18,6 @@
  * ground to LCD, 8th pin from left
  * SDA to LCD, 7th pin from left
  * SCL to LCD, 6th pin from left
- 
  * If backlight is wanted:
  * 3.3v to LCD, 13th pin from left (1st pin from right)
  * ground to LCD, 10th pin from left
