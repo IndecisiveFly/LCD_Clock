@@ -1,5 +1,6 @@
 //Kaitik Kwok
 //Michael Wood
+//May 2016
 //clock.c
 
 #include <wiringPi.h>
@@ -219,7 +220,6 @@ int main (void)
     fprintf(stderr,"fail to set up I2C\n");
     return 1;
   }
-  //  delay(1000);
   //turn on LCD and clear
   wiringPiI2CWriteReg16(fd,0xFE,0x41);
   wiringPiI2CWriteReg16(fd,0xFE,CLEAR);
@@ -257,8 +257,6 @@ int main (void)
     }
     else
     {
- //          printf("millis: %i\n",millis()); //accurate timer of milliseconds of when the program started
- //           printf("counter: %i\n",counter);
       display_clock(counter);
       delay(200);
     }
