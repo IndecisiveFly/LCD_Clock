@@ -2,9 +2,12 @@
 
 ## To Run
 
- /$gpio load i2c
- /$gpio clock 7 1000
- /$sudo ./clock
+ $gpio load i2c
+ 
+ $gpio clock 7 1000
+
+ $sudo ./clock
+
 
 ## Wiring
  * 5v to buttons, output of buttons to resistors and into appropriate pin number
