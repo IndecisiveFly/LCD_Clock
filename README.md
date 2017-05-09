@@ -1,4 +1,4 @@
-#LCD Clock for Raspberry Pi 
+# LCD Clock for Raspberry Pi 
 Simple clock program to run on a Raspberry Pi through the use of the WiringPi Library. Created as a project for CSU Chico EECE 437. 
 
 ## To Run
